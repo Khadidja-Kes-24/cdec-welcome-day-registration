@@ -1,0 +1,148 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CDEC Welcome Day Registration Form</title>
+  <link rel="stylesheet" href="cdecform.css">
+</head>
+<body>
+
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+
+    <div class="container">
+      
+      <div class="sparkle-point"></div>
+        <div class="sparkle-point"></div> <div class="sparkle-point"></div>
+        <div class="sparkle-point"></div><div class="sparkle-point"></div><div class="sparkle-point"></div>
+        <div class="sparkle-point"></div> <div class="sparkle-point"></div>
+        <div class="sparkle-point"></div> <div class="sparkle-point"></div> <div class="sparkle-point"></div>
+        <div class="sparkle-point"></div><div class="sparkle-point"></div>
+        <div class="sparkle-point"></div> <div class="sparkle-point"></div>
+        <div class="sparkle-point"></div><div class="sparkle-point"></div>
+        <div class="sparkle-point"></div><div class="sparkle-point"></div>
+         <div class="sparkle-point"></div>
+
+        
+        <div class="corner-decoration top-left"></div>
+        <div class="corner-decoration top-right"></div>
+        <div class="corner-decoration bottom-left"></div>
+        <div class="corner-decoration bottom-right"></div>
+        
+        <h1>⚡ Welcome Day ⚡</h1>
+        <p class="subtitle">CDEC Club Registration</p>
+        
+        <form id="registrationForm" action="#" method="POST">
+            <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="you@gmail.com" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone"  required>
+            </div>
+            
+            <div class="form-group">
+                <label for="fieldOfStudy">Field of Study</label>
+                <select id="fieldOfStudy" name="fieldOfStudy" required>
+                    <option value="">Select your field of study</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Mathematics">Mathematics</option>
+                    <option value="Physics">Physics</option>
+                    <option value="Chemistry">Chemistry</option>
+                    <option value="Biology">Biology</option> 
+                    <option value="Engineering">Engineering</option>
+                    <option value="Other">Other (Please specify below)</option>
+                </select>
+                
+                <div id="otherFieldGroup">
+                    <label for="otherField">Please Specify Your Field</label>
+                    <input type="text" id="otherField" name="otherField" placeholder="Enter your field of study">
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="year"> Year of study</label>
+                <select id="year" name="year" required>
+                    <option value="">Select your year</option>
+                    <option value="1">L1</option>
+                    <option value="2">l2</option>
+                    <option value="3">L3</option>
+                    <option value="4">M1</option>
+                    <option value="5">M2</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label>Choose Your House (What are you interested in?)</label>
+                <div class="house-selection">
+                    <div class="house-option">
+                        <input type="radio" id="gryffindor" name="house" value="Gryffindor" required>
+                        <label for="gryffindor" class="house-label">
+                            <span class="house-icon">🦁</span>
+                            <span class="house-name">Gryffindor</span>
+                            <span class="house-description">Design & Video Editing</span>
+                        </label>
+                    </div>
+                    <div class="house-option">
+                        <input type="radio" id="ravenclaw" name="house" value="Ravenclaw">
+                        <label for="ravenclaw" class="house-label">
+                            <span class="house-icon">🦅</span>
+                            <span class="house-name">Ravenclaw</span>
+                            <span class="house-description">Web & Mobile Development</span>
+                        </label>
+                    </div>
+                    <div class="house-option">
+                        <input type="radio" id="hufflepuff" name="house" value="Hufflepuff">
+                        <label for="hufflepuff" class="house-label">
+                            <span class="house-icon">🦡</span>
+                            <span class="house-name">Hufflepuff</span>
+                            <span class="house-description">Project Management & Digital Marketing</span>
+                        </label>
+                    </div>
+                    <div class="house-option">
+                        <input type="radio" id="slytherin" name="house" value="Slytherin">
+                        <label for="slytherin" class="house-label">
+                            <span class="house-icon">🐍</span>
+                            <span class="house-name">Slytherin</span>
+                            <span class="house-description">AI & Cyber Security</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="interests">tell us about you</label>
+                <textarea id="interests" name="interests" placeholder="Tell us about your scientific interests ,skills, and what you hope to learn..." required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn">🦉 Send Your Own Owl 🦉</button>
+        </form>
+    </div>
+</body>
+</html>
